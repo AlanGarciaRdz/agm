@@ -1,0 +1,13 @@
+{
+    "name": "simulive-be",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "agm": "rsync -av  -e \"ssh -i \"~/.ssh/monitoreo.pem\"\" -r ./* ec2-user@ec2-54-89-234-112.compute-1.amazonaws.com:/var/www/html/agmtraducciones"
+       
+    },
+    "dependencies": {
+      
+    }
+  }
+  
